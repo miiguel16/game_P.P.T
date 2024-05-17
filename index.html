@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piedra, Papel o Tijeras</title>
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+  <header>
+
+    <h1>Piedra, Papel o Tijeras</h1>
+<div id="options">
+  <button onclick="play('piedra')"><img src="image/piedra.jpg" alt="Piedra"></button>
+  <button onclick="play('papel')"><img src="image/papel.jpg" alt="Papel"></button>
+  <button onclick="play('tijeras')"><img src="image/tijera.jpg" alt="Tijeras"></button>
+</div>
+
+<div id="result"></div>
+<div id="reinicio">
+<button onclick="restartGame()">Reiniciar Juego</button>
+</div>
+
+<div id="score"><br>
+  <p>Jugador: <span id="playerScore">0</span></p><br>
+  <p>Máquina: <span id="computerScore">0</span></p>
+</div>
+<script src="./javascript/funcion.js"></script>
+</header>
+
+<footer>
+  <p>Miguel Angel Chilito (ficha 2901722) <br>&copy; 2024</p>
+</footer>
+</body>
+</html>
+
+</html>
